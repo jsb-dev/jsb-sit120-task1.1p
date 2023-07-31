@@ -15,11 +15,14 @@
         align-items: center;
         height: 100vh;
         width: 100vw;
+        transform: scale(1vw);
       }
 
       .container {
         display: flex;
-        margin: 5rem;
+        width: 70rem;
+        height: 35rem;
+        padding: 1rem;
       }
     </style>
   </head>
@@ -27,32 +30,34 @@
     <div class="container">
       <section
         style="
-          width: 50%;
+          width: 35rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
         "
       >
-        <figure style="padding: 1rem; display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
-          <img
-            src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1213&q=80"
-            alt="Creative Industries"
-            style="width: 80%;"
-          />
-          <figcaption style="margin-top: 1rem; text-align: center; font-size: small; font-style: italic;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <figure style=" display: flex; flex-direction: column; justify-content: space-evenly; align-items: center;">
+          <a href="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1213&q=80">
+            <img
+              src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1213&q=80"
+              alt="A galaxy, painted purple, above a dark landscape with mountains in the distance."
+              style="width: 28rem;"
+            />
+          </a>
+          <figcaption style="margin: .5rem 0 .7rem 0; text-align: center; font-style: italic;">
+            A galaxy, painted purple, above a dark landscape with mountains in the distance.
         </figure>
-        <section style="padding: 0 8rem;">
+        <article style="padding: 0 2rem;">
           <h2 style="text-align: center">Creative Industries</h2>
           <p style="text-align: center">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti laboriosam atque dicta dignissimos autem in saepe, modi consequatur aliquid earum temporibus perspiciatis aliquam provident voluptas, labore velit nam sunt odit aspernatur nulla nisi quod, ipsa ut quas? Possimus, omnis placeat doloribus odio accusamus excepturi magnam neque exercitationem labore velit laboriosam molestiae dignissimos numquam molestias ab sequi magni, cum quam voluptatibus recusandae nesciunt id vero consequuntur provident? Aliquid eos minima cumque soluta mollitia odit, aliquam unde quia exercitationem libero eligendi! Ipsa fugit eligendi eaque officia quas iure ea, tempore aut ad vitae distinctio quisquam, maxime culpa tenetur nobis magni odit possimus?
           </p>
-        </section>
+        </article>
       </section>
       <section
       style="
-        width: 50%;
+        width: 35rem;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -62,12 +67,11 @@
       <form
         action="#"
         method="post"
-        style="padding: 2rem; display: flex; flex-direction: column; gap: 2.2rem;"
+        style="height: 28.5rem; padding: 1.5rem; display: flex; flex-direction: column; gap: .6rem;"
       >
       <h1 style="text-align: center">Contact Us</h1>
       <table >
-        <tr>
-            <td>Email</td>
+            <td >Email</td>
             <td>example@examplemail.com</td>
         </tr>
         <tr>
@@ -80,7 +84,7 @@
       </div>
         <input type="text" name="name" placeholder="Name" />
         <input type="email" name="email" placeholder="Email" />
-        <textarea name="message" placeholder="Message"></textarea>
+        <textarea name="message" placeholder="Message" ></textarea>
         <button type="submit">Submit</button>
       </form>
     </section>
